@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for script in /config/[0-9][0-9]*; do
+  bash "$script"
+done
+
+supervisord -n
