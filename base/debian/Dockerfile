@@ -6,6 +6,8 @@ RUN DEBIAN_FROMTEND=noninteractive apt-get update && apt-get upgrade -y && \
 	apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN useradd -u 500 data
+
 RUN mkdir -p /config /data
 ADD config /config
 RUN chmod +x /config/init
