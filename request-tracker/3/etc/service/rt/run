@@ -1,0 +1,6 @@
+#!/bin/sh
+exec 2>&1
+
+set -e
+
+exec /sbin/setuser www-data /opt/rt3/bin/fastcgi_server -s /opt/rt3/var/fastcgi.sock
