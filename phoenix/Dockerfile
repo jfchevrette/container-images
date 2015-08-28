@@ -2,7 +2,7 @@ FROM jfchevrette/elixir
 
 # Install deps
 RUN apt-get update \
-  && apt-get install -y inotify-tools nodejs \
+  && apt-get install -y inotify-tools npm nodejs \
   && ln -s /usr/bin/nodejs /usr/bin/node \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
