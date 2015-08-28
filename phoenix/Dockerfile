@@ -11,3 +11,6 @@ ENV PHOENIX_VERSION 1.0.0
 
 # Install Phoenix through the Hex package manager
 RUN yes | mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v${PHOENIX_VERSION}/phoenix_new-${PHOENIX_VERSION}.ez
+
+RUN mkdir /code
+WORKDIR /code
