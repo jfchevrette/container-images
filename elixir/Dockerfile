@@ -22,3 +22,6 @@ RUN apt-get update \
   && apt-get install -y elixir \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
+
+# Install Elixir's Hex package manager
+RUN yes | mix local.hex
