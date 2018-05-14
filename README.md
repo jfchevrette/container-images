@@ -3,6 +3,12 @@ This repository contains a collection of Docker configurations I've put together
 
 | Image  | Base  | Status  |
 |---|---|---|
+| origin-images | centos:7  | |
+
+** Deprecated/unmaintained images **
+
+| Image  | Base  | Status  |
+|---|---|---|
 | elixir | ubuntu:14.04  | **unmaintained** |
 | hello-world | php:5.6-apache | **unmaintained** |
 | phoenix | jfchevrette/elixir | **unmaintained** |
