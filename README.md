@@ -5,8 +5,8 @@ This repository contains a collection of Docker configurations I've put together
 |---|---|---|
 | origin-images | centos:7  | |
 
-** Deprecated/unmaintained images **
 
+# Deprecated/unmaintained images
 | Image  | Base  | Status  |
 |---|---|---|
 | elixir | ubuntu:14.04  | **unmaintained** |
